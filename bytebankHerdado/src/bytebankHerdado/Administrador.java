@@ -1,12 +1,13 @@
- package bytebankHerdado;
+package bytebankHerdado;
 
-public class Gerente extends Funcionario implements Autenticavel {
-	
-	 private AutenticacaoUtil autenticador;
+public class Administrador extends Funcionario implements Autenticavel {
 	 
-	 public Gerente() {
-		 this.autenticador = new AutenticacaoUtil();
-		 }
+
+	private AutenticacaoUtil autenticador;
+
+	public Administrador() {
+		this.autenticador = new AutenticacaoUtil();
+	}
 	
 	public double getBonificacao() {
 		System.out.println("Chamando o método de bonificação do Gerente");

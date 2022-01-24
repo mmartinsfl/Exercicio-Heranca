@@ -3,6 +3,10 @@ package bytebankHerdado;
 public class TesteGerente {
 
 	public static void main(String[] args) {
+		
+		
+		
+		
 		Gerente g1 = new Gerente();
 		g1.setNome("Charlie Brown");
 		g1.setCpf("145.698.965-60");

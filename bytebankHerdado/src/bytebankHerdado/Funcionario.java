@@ -1,6 +1,6 @@
 package bytebankHerdado;
 
-public class Funcionario {
+public abstract class Funcionario {
 		
 	private String nome;
 	private String cpf;
@@ -9,10 +9,10 @@ public class Funcionario {
 	public Funcionario() {
 		
 	}
+	// metodo sem corpo,não há implementação
+	public abstract double getBonificacao();
+		
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
 	public String getNome() {
 		return nome;
 	}

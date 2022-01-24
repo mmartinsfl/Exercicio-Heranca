@@ -3,7 +3,7 @@ package bytebankHerdado;
 public class TesteFuncionario {
 public static void main(String[] args) {
 	
-	Funcionario jorge = new Funcionario ();
+	Gerente jorge = new Gerente ();
 	jorge.setNome("Jorge Papagaio");
 	jorge.setCpf("142698985-90");
 	jorge.setSalario(3000.85);
